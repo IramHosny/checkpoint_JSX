@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.app{
+    width: 100%;
+    margin:auto ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.images{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.couver{
+    width:80%;
+    height: 500px;
+    margin: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profil{
+    height: 200px;
+    width: 200px;
+    margin:auto;
+    margin-left: 20%;
+    -moz-border-radius : 100px;
+  -webkit-border-radius : 100px;
+  border-radius : 100px;
+  margin-top: -80px;
+  border-color:white ;
+  border-style:solid ;
 }
-
-.App-link {
-  color: #61dafb;
+.Nom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    margin-top: -50px;
+    
+    
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.adresse{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color:black;
+    font-size:small;
+    margin:auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+.me-auto{
+    display: flex;
+    justify-content: space-between;
+}
+.carte{
+    background-color:dimgray;
+   
+    border-radius: 30px;
+    border-color:black;
+    border-style: solid;
+   
+}
+.container_carte{
+    margin-top: 10%;
+    width: 85%;
+    margin:auto;
+    padding-top:5% ;
+    
+}
+li {
+    font-weight: 100;
+    font-style: oblique; 
+    font-size: medium;
+    color: black;
+}
+ul{
+    font-style: normal;
+    font-size: larger;
 }
